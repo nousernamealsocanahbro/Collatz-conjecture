@@ -1,31 +1,16 @@
 # Collatz conjecture
-A Python script that simulates the Collatz conjecture
-
-# Motivation
-I watched a video about the Collatz conjecture and it interested me, so I made a Python script to simulate the conjecture myself. I also wanted to get better at translating maths into code
+A Java script that simulates the Collatz conjecture.
 
 # What is the Collatz conjecture?
-The Collatz conjecture is one of the most famous unsolved math problems. What it does is:
-
-1. Take a positive integer
-
-2. If the number is even, divide by 2
-
-3. If the number is odd, multiply by 3 then add 1
-
-4. Repeat steps 2 and 3 until the number is 1
-
-The unsolved part comes from the fact that mathematicians haven't been able to solve why each positive integer ends in 1.  This script isn't to figure out why that is, it's just to simulate the conjecture itself
+Taken from Wikipedia:
+> The Collatz conjecture is one of the most famous unsolved problems in mathematics. The conjecture asks whether repeating two simple arithmetic operations will eventually transform every positive integer into 1. It concerns sequences of integers in which each term is obtained from the previous term as follows: if a term is even, the next term is one half of it. If a term is odd, the next term is 3 times the previous term plus 1. The conjecture is that these sequences always reach 1, no matter which positive integer is chosen to start the sequence.
 
 # Usage
-1. Install the script
+Input any positive integer and it will the 2 following steps until it gets to 1:
+1. Dividing by 2 if even
+2. Multiplying by 3 then adding one if odd
 
-2. Run it
-
-3. Input any positive integer
-
-4. The script will execute and print out each step above, along with  the amount of steps it took to get to 1
+It will then show you how many steps it took to get to 1.
 
 # Further reading
-Wikipedia page on the Collatz conjecture: 
 https://en.wikipedia.org/wiki/Collatz_conjecture
